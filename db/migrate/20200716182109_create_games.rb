@@ -4,6 +4,7 @@ class CreateGames < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :image
       t.integer :rating
+      t.string :genre
       t.string :studio
       t.string :socials
       t.string :official_site
