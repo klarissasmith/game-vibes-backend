@@ -5,7 +5,7 @@ class Game < ApplicationRecord
     
 
     #Relationship with User, Game, and UserGame
-    has_many_and_belongs_to :user_games
+    has_and_belongs_to_many :user_games
     has_many :users, through: :user_games
     
 end
