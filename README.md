@@ -1,8 +1,7 @@
 # README
 
 ## Motivation
-
-
+This was my final project for Mod 5 of Flatiron school. It required use of Ruby on Rails and React along with optional use of an external API. I chose video games because I have a passion for them and thought it could be fun to use them in some way in my app.
 
 
 ## Technology Used
@@ -12,6 +11,9 @@
 - [IGDB](https://www.igdb.com/api)
 - [Apicalypse](https://github.com/ComboStrikeHQ/ruby-apicalypse)
 - Postgres database
+
+## Gems
+- Faker
 
 ## Features
 
