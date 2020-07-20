@@ -45,3 +45,6 @@ gem 'active_model_serializers'
 
 #Faker gem
 gem 'faker'
+
+#Figaro
+gem 'figaro'
