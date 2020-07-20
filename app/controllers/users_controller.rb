@@ -29,15 +29,6 @@ class UsersController < ApplicationController
 
 end
 
-# NOT SURE IF THESE WILL BE NEEDED; NOT PLANNING ON ALLOWING USERS TO BE EDITED OR UPDATED...
-    # def edit
-    #     @user = User.find(params[:id])
-    # end
-
-    # def update
-    #     @user = User.find(params[:id])
-    #     @user.update(user_params)
-    # end
 
 # FOUND ON WEBSITE TALKING ABOUT API::V1
 #create ⇒ Object
