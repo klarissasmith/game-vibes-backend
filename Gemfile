@@ -48,3 +48,6 @@ gem 'faker'
 
 #Figaro
 gem 'figaro'
+
+#JWT
+gem 'jwt'
