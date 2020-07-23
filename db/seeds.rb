@@ -23,15 +23,21 @@ Game.destroy_all
 
 #FAKE USERS
 
-5.times do
-    User.create({
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
-        email: Faker::Internet.email,
-        username: Faker::Internet.username,
-        password: Faker::Internet.password(max_length: 15)
-    })
-end
+# 5.times do
+#     User.create({
+#         first_name: Faker::Name.first_name,
+#         last_name: Faker::Name.last_name,
+#         email: Faker::Internet.email,
+#         username: Faker::Internet.username,
+#         password: Faker::Internet.password(max_length: 15)
+#     })
+# end
+
+
+User.create(first_name: "Klarissa", last_name: "Smith", email:"ksmith@ksmith.com", username:"ksmith", password:"12345")
+User.create(first_name: "John", last_name: "Doe", email:"", username:"", password:"")
+User.create(first_name: "", last_name: "", email:"", username:"", password:"")
+
 # title,image,rating,genre,studio,socials,officialsites,summary,consoles
 Game.create(title: "Titanfall", image:"https://images-na.ssl-images-amazon.com/images/I/51ZMKvnLbbL._SX375_BO1,204,203,200_.jpg", summary:"Fun, great game of amazingness")
 Game.create(title: "Titanfall 2", image:"https://s2.gaming-cdn.com/images/products/1273/orig/titanfall-2-cover.jpg", summary:"The second installment of a great game of amazingness")
@@ -41,10 +47,4 @@ Game.create(title: "The Sims 4", image:"https://images-na.ssl-images-amazon.com/
 Game.create(title: "The Sims Medieval", image:"https://images-na.ssl-images-amazon.com/images/I/81l0Ek8x%2BAL._SY445_.jpg", summary:"The Sims in the past")
 
 
-
-5.times do
-    Review.create({
-        summary: Faker::Quote.matz
-    })
-end
 

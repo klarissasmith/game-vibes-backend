@@ -8,7 +8,7 @@ class User < ApplicationRecord
     has_one :user_game
     has_many :games, through: :user_games
 
-#Validations for Inputs
+    #Validations for Inputs
     validates :first_name, :last_name, :email, :username, :password, presence: true
     
     # validates :username, :password, uniqueness: true
