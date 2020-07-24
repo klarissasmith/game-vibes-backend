@@ -51,3 +51,6 @@ gem 'figaro'
 
 #JWT
 gem 'jwt'
+
+#RestClient for ThirdParty API
+gem 'rest-client'

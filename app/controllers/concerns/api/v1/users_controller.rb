@@ -2,12 +2,12 @@ class Api::V1::UsersController < ApplicationController
     skip_before_action :authorized, only: [:create, :index]
 
     def index
-        @users = User.all 
-        render json: @users.to_json
+        users = User.all 
+        render json: users.to_json
     end
     
     def new
-        @user = User.new
+        user = User.new
     end
     
     def create
