@@ -40,8 +40,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-#Serializers
-gem 'active_model_serializers'
 
 #Faker gem
 gem 'faker'
@@ -51,6 +49,3 @@ gem 'figaro'
 
 #JWT
 gem 'jwt'
-
-#RestClient for ThirdParty API
-gem 'rest-client'
